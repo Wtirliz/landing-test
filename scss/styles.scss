@@ -1,0 +1,43 @@
+@import '_mixins';
+@import "_mixins-new";
+
+$maxWidth: 1440;
+$minWidth: 375;
+$maxWidthContainer: 0;
+$containerWidth: 1440;
+//web page width
+$notebook: 1400px;
+$row: 1140px;
+$md: 960px;
+$sm: 768px;
+$xs: 480px;
+//main color
+$a: #3b5993;
+//second color
+$b: #f1b820;
+//link color
+$link: $a;
+// button color
+$btn: #3b5993;
+
+$border: #cccccc;
+$text: #000;
+$menu: $a;
+:root{
+  --text:#0b0b0f;
+  --muted:#6b7280;
+  --bg:#0f1014;
+  --white:#fff;
+  --accent:#4f46e5;
+  --radius:14px;
+  --container:1120px;
+}
+$accent: #464be8;
+$muted: #6b7280;
+
+$inputH: 60px;
+
+$font: 'Inter', sans-serif;
+
+@import 'reset';
+@import 'page';
